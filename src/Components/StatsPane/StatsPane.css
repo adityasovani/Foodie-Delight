@@ -1,0 +1,22 @@
+.stats-container{
+    border-radius: 1rem;
+    border: 0.7px solid rgb(150, 141, 141);
+    height: 6rem !important;
+}
+
+.stat-card{
+    gap: 7px;
+}
+
+.stat-name{
+    font-weight: 500;
+    font-size: 20px;
+}
+.stat-caption{
+    color: grey;
+}
+
+.stat-number{
+    font-size: 25px;
+    font-weight: 600;
+}

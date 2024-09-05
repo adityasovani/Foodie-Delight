@@ -1,0 +1,29 @@
+.listing-container {
+    border-radius: 1rem;
+    border: 0.7px solid rgb(150, 141, 141);
+}
+
+.top-left{
+    border-top-left-radius: 10px !important;
+}
+.top-right{
+    border-top-right-radius: 10px !important;
+}
+.bottom-left{
+    border-bottom-left-radius: 10px !important;
+}
+.bottom-right{
+    border-bottom-right-radius: 10px !important;
+}
+
+.input-group-text {
+    background-color: #fff !important;
+    border-right-color: #fff !important;
+}
+
+.table-header {
+    background-color: #78c0da !important;
+}
+.page-item{
+    cursor: pointer !important;
+}
