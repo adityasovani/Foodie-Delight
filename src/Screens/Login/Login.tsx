@@ -3,7 +3,7 @@ import { signIn } from '../../utils/SupabaseAPI';
 import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 import RouteNames from '../../Config/routesnames';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { loginSuccess } from '../../Redux/authActions';
 
 const Login: React.FC = () => {
@@ -17,6 +17,13 @@ const Login: React.FC = () => {
     });
 
     const [showPassword, setShowPassword] = useState(false);
+    const userDetails = useSelector((state: any) => state.user);
+
+    useEffect(() => {
+        if (userDetails?.aud === 'authenticated') {
+            navigate(RouteNames.DASHBOARD);
+        }
+    }, [userDetails?.user])
 
     const handleLogin = async (event: any) => {
         try {
