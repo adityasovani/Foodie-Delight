@@ -76,7 +76,7 @@ const HotelsListing: React.FC = () => {
             </div>
             <hr />
             {/* Table */}
-            <div className="mt-2">
+            <div className="mt-2 table-wrapper">
                 {
                     (hotels?.length > 0) ? <table className="table table-hover table-responsive">
                         <thead>

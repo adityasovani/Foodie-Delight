@@ -35,10 +35,12 @@ const Sidebar: React.FC = () => {
                     <span className="fs-5"><i className="bi bi-cookie" /><span className="d-none d-sm-inline m-2">Foodie Delight</span></span>
                 </a>
                 <hr className='sidebar-hr' />
-                <ul className="nav flex-sm-column flex-row flex-nowrap flex-shrink-1 flex-sm-grow-0 flex-grow-1 mb-sm-auto mb-0 justify-content-center align-items-center align-items-sm-start" id="menu">
+                <ul className="nav flex-sm-column flex-row flex-nowrap flex-shrink-0 flex-grow-3 mb-sm-auto mb-0 justify-content-center align-items-center align-items-sm-start" id="menu">
                     <li>
                         <a href="#" onClick={selectLink} className="nav-link px-sm-0 px-2">
-                            <i className="fs-5 bi-speedometer2"></i><span className="ms-1 d-none d-sm-inline">Dashboard</span> </a>
+                            <i className="fs-5 bi-speedometer2" />
+                            <span className="ms-1 d-sm-inline">Dashboard</span>
+                        </a>
                     </li>
                 </ul>
                 <div className="mt-auto">

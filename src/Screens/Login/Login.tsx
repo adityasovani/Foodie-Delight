@@ -39,7 +39,7 @@ const Login: React.FC = () => {
     return (
         <div className="d-flex flex-column gap-4 justify-content-center align-items-center vh-100">
             <span className="display-4">Admin Login</span>
-            <form className="w-25 border p-4 rounded" onSubmit={handleSubmit(handleLogin)}>
+            <form className=" border p-4 rounded" onSubmit={handleSubmit(handleLogin)}>
                 <div className="mb-3">
                     <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
                     <input {...register("username", { required: true, pattern: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/ })} type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />

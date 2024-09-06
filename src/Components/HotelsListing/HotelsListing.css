@@ -3,16 +3,23 @@
     border: 0.7px solid rgb(150, 141, 141);
 }
 
-.top-left{
+.table-wrapper {
+    overflow-y: scroll;
+}
+
+.top-left {
     border-top-left-radius: 10px !important;
 }
-.top-right{
+
+.top-right {
     border-top-right-radius: 10px !important;
 }
-.bottom-left{
+
+.bottom-left {
     border-bottom-left-radius: 10px !important;
 }
-.bottom-right{
+
+.bottom-right {
     border-bottom-right-radius: 10px !important;
 }
 
@@ -24,6 +31,7 @@
 .table-header {
     background-color: #78c0da !important;
 }
-.page-item{
+
+.page-item {
     cursor: pointer !important;
 }

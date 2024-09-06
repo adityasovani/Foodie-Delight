@@ -33,11 +33,11 @@ const StatsPane: React.FC = () => {
 
     return (
         <div className='stats-container d-flex align-items-center row w-100'>
-            <div className="col-md-6 col-sm-12 d-flex flex-column align-items-center stat-card ">
+            <div className="col-md-6 col-sm-6 d-flex flex-column align-items-center stat-card ">
                 <div className="stat-name"><i className="bi bi-cup-hot" /> Total Restaurents</div>
                 <div className="stat-number">{restaurentsCount}</div>
             </div>
-            <div className="col-md-6 col-sm-12 d-flex flex-column align-items-center stat-card">
+            <div className="col-md-6 col-sm-6 d-flex flex-column align-items-center stat-card">
                 <div className="stat-name"><i className="bi bi-calendar-event" /> Created Today</div>
                 <div className="stat-number">{createdToday}</div>
             </div>

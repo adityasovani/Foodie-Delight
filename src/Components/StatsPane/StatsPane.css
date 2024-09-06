@@ -1,7 +1,12 @@
+@media screen and (max-width: 768px) {
+    .stats-container{
+        height: 9.5rem !important;
+    }
+}
 .stats-container{
     border-radius: 1rem;
     border: 0.7px solid rgb(150, 141, 141);
-    height: 6rem !important;
+    height: 6rem ;
 }
 
 .stat-card{
